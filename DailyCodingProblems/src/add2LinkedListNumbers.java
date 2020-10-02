@@ -1,4 +1,4 @@
-
+import java.lang.Object;
 //You are given two non-empty linked lists representing two non-negative integers. 
 //The digits are stored in reverse order and each of their nodes contain a single digit. 
 //Add the two numbers and return it as a linked list.
@@ -13,8 +13,10 @@ public class add2LinkedListNumbers{
 		ListNode list2 = new ListNode(7, new ListNode(9, new ListNode(8)));
 		
 		add2LinkedListNumbers solution = new add2LinkedListNumbers();
+		ListNode result = new ListNode();
+		result = solution.addTwoNumbers(list1, list2);
 		
-		System.out.println("Result: " + solution.addTwoNumbers(list1, list2));
+		solution.printReverse(result);
 		
 	}
 	
@@ -43,4 +45,15 @@ public class add2LinkedListNumbers{
         
         return dummyHead.next;
     }
+	
+	void printReverse(ListNode head) 
+    { 
+        if (head == null) return; 
+  
+        // print list of head node 
+        printReverse(head.next); 
+  
+        // After everything else is printed 
+        System.out.print(head.val+""); 
+    } 
 }
