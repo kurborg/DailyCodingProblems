@@ -1,5 +1,9 @@
+import java.time.LocalTime;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Formatter;
+import java.util.stream.Stream;
 
 // Verifies if there is a match between 2 elements in an integer array for a target number
 // using multiple different solutions
@@ -12,9 +16,26 @@ public class twoSum{
 		int targ2 = 14;
 		int targ3 = 12;
 		
-		System.out.println("First method answer: " + bruteForceMethod(nums, targ1));
-		System.out.println("First method answer: " + twoPassHashTable(nums, targ2));
-		System.out.println("First method answer: " + onePassHashTable(nums, targ3));
+		int[] ans1 = bruteForceMethod(nums, targ1);
+		System.out.println("First method answer: ");
+		for(int i = 0; i < ans1.length; i++)
+		{
+			System.out.println("Index " + ans1[i]);
+		}
+		
+//		int[] ans2 = twoPassHashTable(nums, targ2);
+//		System.out.println("third method answer: ");
+//		for(int i = 0; i < ans1.length; i++)
+//		{
+//			System.out.println(" " + ans2[i]);
+//		}
+		
+		int[] ans3 = onePassHashTable(nums, targ3);
+		System.out.println("third method answer: ");
+		for(int i = 0; i < ans1.length; i++)
+		{
+			System.out.println("Index " + ans3[i]);
+		}
 		
 	}
 	
