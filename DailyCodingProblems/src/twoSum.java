@@ -20,21 +20,21 @@ public class twoSum{
 		System.out.println("First method answer: ");
 		for(int i = 0; i < ans1.length; i++)
 		{
-			System.out.println("Index " + ans1[i]);
+			System.out.println("Index: " + ans1[i]);
 		}
 		
-//		int[] ans2 = twoPassHashTable(nums, targ2);
-//		System.out.println("third method answer: ");
-//		for(int i = 0; i < ans1.length; i++)
-//		{
-//			System.out.println(" " + ans2[i]);
-//		}
+		int[] ans2 = twoPassHashTable(nums, targ2);
+		System.out.println("second method answer: ");
+		for(int i = 0; i < ans1.length; i++)
+		{
+			System.out.println("Index: " + ans2[i]);
+		}
 		
 		int[] ans3 = onePassHashTable(nums, targ3);
 		System.out.println("third method answer: ");
 		for(int i = 0; i < ans1.length; i++)
 		{
-			System.out.println("Index " + ans3[i]);
+			System.out.println("Index: " + ans3[i]);
 		}
 		
 	}
@@ -63,7 +63,7 @@ public class twoSum{
 		
 		Map<Integer, Integer> map = new HashMap<>();
 		
-		for(int i = 0; i < map.size(); i++) {
+		for(int i = 0; i < nums.length; i++) {
 			map.put(nums[i], i); // value at index (key), index
 		}
 		
