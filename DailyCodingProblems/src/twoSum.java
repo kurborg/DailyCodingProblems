@@ -1,9 +1,6 @@
-import java.time.LocalTime;
-import java.util.Calendar;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Formatter;
-import java.util.stream.Stream;
 
 // Verifies if there is a match between 2 elements in an integer array for a target number
 // using multiple different solutions
