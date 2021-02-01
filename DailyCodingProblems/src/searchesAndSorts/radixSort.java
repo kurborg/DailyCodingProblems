@@ -95,7 +95,7 @@ class radixSort{
 
 	}
 	
-	public static void printIntArray(int[] array, int length)
+	private void printIntArray(int[] array, int length)
 	{
 		System.out.print("Sorted Array:");
 		for(int i=0; i <length-1; i++)

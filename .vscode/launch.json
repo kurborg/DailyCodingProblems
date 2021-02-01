@@ -1,0 +1,287 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfTwoSortedArrayOfDifferentLength",
+            "request": "launch",
+            "mainClass": "MedianOfTwoSortedArrayOfDifferentLength",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch add2LinkedListNumbers",
+            "request": "launch",
+            "mainClass": "add2LinkedListNumbers",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch codingTest",
+            "request": "launch",
+            "mainClass": "codingTest",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch expressionEvaluation",
+            "request": "launch",
+            "mainClass": "expressionEvaluation",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch findFixedPointInGivenArray",
+            "request": "launch",
+            "mainClass": "findFixedPointInGivenArray",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch hourAndMinuteHandAngle",
+            "request": "launch",
+            "mainClass": "hourAndMinuteHandAngle",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "longestPalindromicSubstring",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch lookAndSaySequence",
+            "request": "launch",
+            "mainClass": "lookAndSaySequence",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch nearlySortedArray",
+            "request": "launch",
+            "mainClass": "nearlySortedArray",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseInteger",
+            "request": "launch",
+            "mainClass": "reverseInteger",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearch",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.binarySearch",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.bubbleSort",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch quickSort",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.quickSort",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch radixSort",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.radixSort",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortedMerge",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.sortedMerge",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoSum",
+            "request": "launch",
+            "mainClass": "twoSum",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch wordBreakProblem",
+            "request": "launch",
+            "mainClass": "wordBreakProblem",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearch(1)",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "DailyCodingProblems_49b0c6e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort(1)",
+            "request": "launch",
+            "mainClass": "bubbleSort",
+            "projectName": "DailyCodingProblems_49b0c6e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch quickSort(1)",
+            "request": "launch",
+            "mainClass": "quickSort",
+            "projectName": "DailyCodingProblems_49b0c6e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch radixSort(1)",
+            "request": "launch",
+            "mainClass": "radixSort",
+            "projectName": "DailyCodingProblems_49b0c6e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortedMerge(1)",
+            "request": "launch",
+            "mainClass": "sortedMerge",
+            "projectName": "DailyCodingProblems_49b0c6e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianOfTwoSortedArrayOfDifferentLength(1)",
+            "request": "launch",
+            "mainClass": "MedianOfTwoSortedArrayOfDifferentLength",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch add2LinkedListNumbers(1)",
+            "request": "launch",
+            "mainClass": "add2LinkedListNumbers",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch codingTest(1)",
+            "request": "launch",
+            "mainClass": "codingTest",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch expressionEvaluation(1)",
+            "request": "launch",
+            "mainClass": "expressionEvaluation",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch findFixedPointInGivenArray(1)",
+            "request": "launch",
+            "mainClass": "findFixedPointInGivenArray",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch hourAndMinuteHandAngle(1)",
+            "request": "launch",
+            "mainClass": "hourAndMinuteHandAngle",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestPalindromicSubstring(1)",
+            "request": "launch",
+            "mainClass": "longestPalindromicSubstring",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch lookAndSaySequence(1)",
+            "request": "launch",
+            "mainClass": "lookAndSaySequence",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch nearlySortedArray(1)",
+            "request": "launch",
+            "mainClass": "nearlySortedArray",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseInteger(1)",
+            "request": "launch",
+            "mainClass": "reverseInteger",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearch(2)",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.binarySearch",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort(2)",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.bubbleSort",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch quickSort(2)",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.quickSort",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch radixSort(2)",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.radixSort",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortedMerge(2)",
+            "request": "launch",
+            "mainClass": "searchesAndSorts.sortedMerge",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoSum(1)",
+            "request": "launch",
+            "mainClass": "twoSum",
+            "projectName": "DailyCodingProblems"
+        },
+        {
+            "type": "java",
+            "name": "Launch wordBreakProblem(1)",
+            "request": "launch",
+            "mainClass": "wordBreakProblem",
+            "projectName": "DailyCodingProblems"
+        }
+    ]
+}
