@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch romanNumToInt",
+            "request": "launch",
+            "mainClass": "romanNumToInt",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch intIsPalindrome",
             "request": "launch",
             "mainClass": "intIsPalindrome",
