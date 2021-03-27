@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sum1dArray",
+            "request": "launch",
+            "mainClass": "sum1dArray",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "longestCommonPrefix",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch romanNumToInt",
             "request": "launch",
             "mainClass": "romanNumToInt",
