@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch jumpingClouds",
+            "request": "launch",
+            "mainClass": "java.jumpingClouds",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch add2LinkedListNumbers",
+            "request": "launch",
+            "mainClass": "java.add2LinkedListNumbers",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch sum1dArray",
             "request": "launch",
             "mainClass": "sum1dArray",

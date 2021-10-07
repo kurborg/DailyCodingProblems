@@ -1,3 +1,5 @@
+package java;
+
 class longestPalindromicSubstring {
 	// Approach 4: Expand Around Center
     // Time Complexity O(n^2)

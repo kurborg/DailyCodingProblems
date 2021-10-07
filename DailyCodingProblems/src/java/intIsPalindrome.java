@@ -1,3 +1,5 @@
+package java;
+
 public class intIsPalindrome {
 
     public static void main(String[] args)

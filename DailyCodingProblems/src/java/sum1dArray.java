@@ -1,3 +1,5 @@
+package java;
+
 public class sum1dArray {
     
     public static void main(String[] args) {
