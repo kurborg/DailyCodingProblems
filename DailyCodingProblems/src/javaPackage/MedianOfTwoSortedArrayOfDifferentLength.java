@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 class MedianOfTwoSortedArrayOfDifferentLength {
     public double findMedianSortedArrays(int[] A, int[] B) {

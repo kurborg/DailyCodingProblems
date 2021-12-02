@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 /*Given an array of n distinct integers sorted in ascending order, write a function that returns a Fixed point in the array
  *If there is any Fixed point present in array, else returns -1. Fixed point in an array is an index i such that arr[i] is equal

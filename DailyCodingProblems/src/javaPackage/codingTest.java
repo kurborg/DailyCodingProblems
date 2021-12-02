@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 import java.time.LocalTime;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 import java.io.*;
 import java.math.*;
@@ -61,7 +61,7 @@ public class repeatedStringCounter {
         long result = repeatedString(s, n);
 
         bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
+    bufferedWriter.newLine();
 
         bufferedReader.close();
         bufferedWriter.close();

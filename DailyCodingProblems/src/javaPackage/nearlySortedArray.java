@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 // Given an array of n elements, where each element is at
 // most k away from its target position, devise an algorithm

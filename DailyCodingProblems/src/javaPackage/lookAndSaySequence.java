@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 /*
  * Sequence Definition

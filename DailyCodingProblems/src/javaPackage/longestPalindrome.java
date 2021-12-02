@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 class longestPalindromicSubstring {
 	// Approach 4: Expand Around Center

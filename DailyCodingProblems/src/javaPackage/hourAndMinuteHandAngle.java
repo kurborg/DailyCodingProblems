@@ -1,4 +1,4 @@
-package java;
+package javaPackage;
 
 // this problem is known as clock angle problem where we
 // need to find angle between hands of an analog clock
