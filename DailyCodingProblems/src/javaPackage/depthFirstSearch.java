@@ -47,6 +47,17 @@ public class depthFirstSearch{
         recursiveDepthFirst(root.right);
     }
 
+    public static boolean recursiveSearchDepthFirst(Node root, int val)
+    {
+        if (root == null)
+            return false;
+
+        if(root.data == val)
+            return true;
+
+        return recursiveSearchDepthFirst(root.left, val) || recursiveSearchDepthFirst(root.right, val);
+    }
+
     public static void main(String[] args)
     {
         Node a = new Node(5);
@@ -65,6 +76,12 @@ public class depthFirstSearch{
         System.out.println(result); // 5 3 1 4 6 8
     
         recursiveDepthFirst(a); // 5 3 1 4 6 8
+        
+        boolean searchResult = recursiveSearchDepthFirst(a, 8);
+        System.out.println("8 is in tree: " + searchResult);
+        
+        boolean searchResult2 = recursiveSearchDepthFirst(a, 17);
+        System.out.println("17 is in tree: " + searchResult2);
     }   
 
     /*

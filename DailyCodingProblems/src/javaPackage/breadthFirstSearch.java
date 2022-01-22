@@ -31,6 +31,30 @@ public class breadthFirstSearch {
         
     }
 
+    public static boolean searchBreadthFirst(Node root, int val)
+    {
+        if (root == null)
+            return false;
+
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(root);
+
+        while(!q.isEmpty())
+        {
+            Node curr = q.remove();
+
+            if(curr.data == val)
+                return true;
+
+            if(curr.left != null)
+                q.add(curr.left);
+            if(curr.right != null)
+                q.add(curr.right);
+        }
+
+        return false;
+    }
+
         /*
             5
            / \
@@ -55,6 +79,12 @@ public class breadthFirstSearch {
 
         ArrayList<String> result = breadthFirstValues(a);
         System.out.println(result);
+
+        boolean searchResult = searchBreadthFirst(a, 8);
+        System.out.println("8 is in tree: " + searchResult);
+        
+        boolean searchResult2 = searchBreadthFirst(a, 17);
+        System.out.println("17 is in tree: " + searchResult2);
     }
 
     /*
