@@ -85,12 +85,12 @@ public class sortNearlySortedArray {
         System.out.println("\nAfter Insertion sort: ");
         printArray(arr);
 
-        System.out.println("\nArray 2: Before Insertion sort: ");
+        System.out.println("\nArray 2: Before min heap sort: ");
         printArray(arr2);
 
         kSortHeap(arr2, 4);
 
-        System.out.println("\nArray 2: After Insertion sort: ");
+        System.out.println("\nArray 2: After min heap sort: ");
         printArray(arr2);
     }
 }
