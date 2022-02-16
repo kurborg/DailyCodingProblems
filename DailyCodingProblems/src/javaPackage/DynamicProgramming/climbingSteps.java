@@ -1,7 +1,5 @@
 package javaPackage.DynamicProgramming;
 
-import java.beans.Transient;
-
 public class climbingSteps {
 
     public static void main(String[] args)
