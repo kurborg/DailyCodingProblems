@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch utf8CharValidation",
+            "request": "launch",
+            "mainClass": "javaPackage.utf8CharValidation",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch jumpingClouds",
             "request": "launch",
             "mainClass": "java.jumpingClouds",
