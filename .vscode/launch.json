@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch levelsInABST",
+            "request": "launch",
+            "mainClass": "javaPackage.levelsInABST",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoSumOnePass",
+            "request": "launch",
+            "mainClass": "javaPackage.twoSumOnePass",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch doubleLinkedListPalindrome",
+            "request": "launch",
+            "mainClass": "javaPackage.doubleLinkedListPalindrome",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch lruCache",
+            "request": "launch",
+            "mainClass": "javaPackage.lruCache",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch doublyLinkedListPalindrome",
+            "request": "launch",
+            "mainClass": "javaPackage.doublyLinkedListPalindrome",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch utf8CharValidation",
             "request": "launch",
             "mainClass": "javaPackage.utf8CharValidation",
