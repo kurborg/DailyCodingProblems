@@ -5,7 +5,7 @@ import java.util.List;
 
 public class findNumberNotInList {
     
-    static Integer findNumbers(List arr, int n)
+    static Integer findNumbers(List<Integer> arr, int n)
     {
         ArrayList<Integer> result = new ArrayList<Integer>();
 

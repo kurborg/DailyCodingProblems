@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nonRepeatingMaxCharSet",
+            "request": "launch",
+            "mainClass": "javaPackage.nonRepeatingMaxCharSet",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch levelsInABST",
             "request": "launch",
             "mainClass": "javaPackage.levelsInABST",

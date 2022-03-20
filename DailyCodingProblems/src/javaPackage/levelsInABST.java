@@ -2,7 +2,6 @@ package javaPackage;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class levelsInABST {
 
@@ -70,8 +69,6 @@ public class levelsInABST {
         rightLeft.left = rightLeftLeft;
 
         System.out.println("solution 1 Recursion: " + maxDepth(root));
-
-        System.out.println("solution 2 Depth: " + depthSearchMax(root));
 
         System.out.println("solution 3 Breadth: " + breadthSearchMax(root));
     }

@@ -1,16 +1,6 @@
 package javaPackage;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
 
 public class countingValleys {
 
@@ -21,7 +11,7 @@ public class countingValleys {
      * parameters: 1. INTEGER steps 2. STRING path
      */
 
-    public static int countingValleys(int steps, String path) {
+    public static int countingValley(int steps, String path) {
         // Write your code here
         int level = 0;
         int valley = 0;
@@ -47,7 +37,7 @@ public class countingValleys {
 
         String path = bufferedReader.readLine();
 
-        int result = countingValleys(steps, path);
+        int result = countingValley(steps, path);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
