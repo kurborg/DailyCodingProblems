@@ -4,6 +4,10 @@ import java.util.HashSet;
 
 public class nonRepeatingMaxCharSet {
     
+    // Create a set that will only allow for non-duplicates
+    // add to the set if the new char on the right sliding window isn't in the set
+    // if it is in the set then remove from set and move left sliding window over
+    // at each new char, get max of prev max and current max which is r - l + 1
     static int maxUniqueChars(String words)
     {
         HashSet<Character> chars = new HashSet<Character>();

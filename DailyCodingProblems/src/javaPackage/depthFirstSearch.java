@@ -2,7 +2,6 @@ package javaPackage;
 
 import java.util.ArrayList;
 import java.util.Stack;
-import java.util.prefs.NodeChangeListener;
 
 public class depthFirstSearch{
 
