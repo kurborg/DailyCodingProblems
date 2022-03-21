@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch expressionTree",
+            "request": "launch",
+            "mainClass": "javaPackage.expressionTree",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch medianStreamInts",
+            "request": "launch",
+            "mainClass": "javaPackage.medianStreamInts",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch houseRobber",
+            "request": "launch",
+            "mainClass": "javaPackage.houseRobber",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch nonRepeatingMaxCharSet",
             "request": "launch",
             "mainClass": "javaPackage.nonRepeatingMaxCharSet",
