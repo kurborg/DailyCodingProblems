@@ -3,11 +3,75 @@ package javaPackage;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Stack;
 import java.util.LinkedList;
 
 public class Graph {
     
     private Map<Node, List<Node>> map = new HashMap<>();
+
+    public void depthFirstPrint(Node sn)
+    {
+        Map<Node, Boolean> visitedMap = new HashMap<Node, Boolean>();
+
+        visitedMap.put(sn, true);
+        Stack<Node> stack = new Stack<Node>();
+        stack.add(sn);
+
+        while(!stack.isEmpty())
+        {
+            Node curr = stack.pop();
+            System.out.print(curr.data + " ");
+
+            for(Node dd : map.get(curr))
+            {
+                if(!visitedMap.containsKey(dd))
+                {
+                    visitedMap.put(dd, false);
+                }
+
+                if(visitedMap.get(dd) != true)
+                {
+                    visitedMap.put(dd, true);
+                    stack.add(dd);
+                }
+            }
+        }
+
+        System.out.print("\n");
+    }
+
+    public void breadthFirstPrint(Node sn)
+    {
+        Map<Node, Boolean> visitedMap = new HashMap<Node, Boolean>();
+
+        visitedMap.put(sn, true);
+        LinkedList<Node> queue = new LinkedList<Node>();
+        queue.add(sn);
+
+        while(!queue.isEmpty())
+        {
+            Node curr = queue.poll();
+            System.out.print(curr.data + " ");
+
+            for(Node dd : map.get(curr))
+            {
+                if(!visitedMap.containsKey(dd))
+                {
+                    visitedMap.put(dd, false);
+                }
+
+                if(visitedMap.get(dd) != true)
+                {
+                    visitedMap.put(dd, true);
+                    queue.add(dd);
+                }
+            }
+            
+        }
+
+        System.out.print("\n");
+    }
 
     public void addVertex(Node s)
     {
@@ -34,10 +98,13 @@ public class Graph {
         }
     }
 
-    public void getVertexCount()
+    public int getVertexCount()
     {
+        int count = map.keySet().size();
+
         System.out.println("Graph has Vertex count: " +
-        map.keySet().size());
+        count);
+        return count;
     }
 
     public void getEdgeCount()
@@ -124,6 +191,9 @@ public class Graph {
         graph.addEdge(four, one);
         graph.addEdge(four, two);
 
-        graph.graphToString();
+        //graph.graphToString();
+
+        graph.breadthFirstPrint(zero);
+        graph.depthFirstPrint(zero);
     }
 }
