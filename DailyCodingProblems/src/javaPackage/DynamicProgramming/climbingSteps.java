@@ -34,11 +34,12 @@ public class climbingSteps {
     {
         int one = 1, two = 1;
 
+        //[0, 1, 2, 3, 4, 5, 6]
         for(int i =0; i < n-1; i++)
         {
-            int temp = one;
-            one = one + two;
-            two = temp;
+            int temp = one; // 1, 2, 3, 5, 8
+            one = one + two; // 2, 3, 5, 8, 13
+            two = temp; // 1, 2, 3, 5, 8
         }
 
         return one;
