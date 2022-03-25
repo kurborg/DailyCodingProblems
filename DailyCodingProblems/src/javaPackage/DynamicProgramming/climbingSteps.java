@@ -32,16 +32,19 @@ public class climbingSteps {
 
     public static int stepVariations(int n)
     {
-        int one = 1, two = 1;
+        int currentStep = 0;
+        int previousStep = 1;
+        int totalSteps = 0;
 
         //[0, 1, 2, 3, 4, 5, 6]
-        for(int i =0; i < n-1; i++)
+        // loop: 5..0,  6 loops
+        for(int i = n -1; i >=0 ; i--)
         {
-            int temp = one; // 1, 2, 3, 5, 8
-            one = one + two; // 2, 3, 5, 8, 13
-            two = temp; // 1, 2, 3, 5, 8
+            totalSteps = currentStep + previousStep; // 1, 2, 3, 5, 8, 13
+            currentStep = previousStep; // 1, 1, 2, 3, 5, 8
+            previousStep = totalSteps; // 1, 2, 3, 5, 8, 13
         }
 
-        return one;
+        return totalSteps;
     }
 }
