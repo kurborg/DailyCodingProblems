@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch jumpGame2",
+            "request": "launch",
+            "mainClass": "javaPackage.jumpGame2",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch radixSort",
+            "request": "launch",
+            "mainClass": "javaPackage.radixSort",
+            "projectName": "DailyCodingProblems (2)"
+        },
+        {
+            "type": "java",
             "name": "Launch Graph",
             "request": "launch",
             "mainClass": "javaPackage.Graph",
