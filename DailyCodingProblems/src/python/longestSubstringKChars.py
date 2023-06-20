@@ -1,3 +1,10 @@
+'''
+Longest substring with no more than ‘k’ distinct characters
+
+Problem statement: Given a string, find the length of the longest substring in it with no more than K distinct characters.
+'''
+
+
 def longestSubstringKChars(inputStr, k):
     ans = 0
     left = right = 0
